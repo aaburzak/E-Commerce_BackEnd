@@ -63,7 +63,7 @@ router.put('/:id', (req, res) => {
       }
     }
   )
-  .then(cbCategory => {
+  .then(dbCategory => {
     if (!dbCategory) {
       res.status(404).json({message:'Post id not found'});
       return;
