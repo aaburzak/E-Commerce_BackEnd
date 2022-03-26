@@ -38,7 +38,7 @@ router.get('/:id', (req, res) => {
       }
     ]
   })
-    .then(dbCategory => json(dbCategory))
+    .then(dbCategory => res.json(dbCategory))
     .catch(err => {
       console.log(err);
       res.status(500).json(err);

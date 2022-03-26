@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "Back end code for an ecommerce website",
   "main": "server.js",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -17,10 +25,5 @@
   "bugs": {
     "url": "https://github.com/aaburzak/E-Commerce_BackEnd/issues"
   },
-  "homepage": "https://github.com/aaburzak/E-Commerce_BackEnd#readme",
-  "dependencies": {
-    "dotenv": "^16.0.0",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.17.0"
-  }
+  "homepage": "https://github.com/aaburzak/E-Commerce_BackEnd#readme"
 }
